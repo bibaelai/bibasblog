@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hiba Elharchaoui — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- CURSOR -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-dot" id="cursorDot"></div>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-logo">Biba's portfolio </div>
+    <ul class="nav-links">
+      <li><a href="#about">À propos</a></li>
+      <li><a href="#skills">Compétences</a></li>
+      <li><a href="#projects">Projets</a></li>
+      <li><a href="#gallery">Galerie</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-toggle" id="navToggle">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-blobs">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="blob blob-3"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-photo-wrap">
+        <div class="hero-photo-ring"></div>
+        <img class="hero-photo" src="assets/hiba.jpg" alt="Hiba Elharchaoui" />
+        <div class="hero-photo-deco">✦</div>
+      </div>
+      <div class="hero-text">
+        <p class="hero-eyebrow">Bonjour, je suis</p>
+        <h1 class="hero-name">Hiba<br/><em>Elharchaoui</em></h1>
+        <p class="hero-subtitle">Étudiante en Génie Informatique · Passionnée d'IA · Créatrice de choses</p>
+        <div class="hero-tags">
+          <span class="tag">💻 Développement Web</span>
+          <span class="tag">🤖 IA & LLMs</span>
+          <span class="tag">🎭 Théâtre</span>
+          <span class="tag">♟ Échecs</span>
+        </div>
+        <div class="hero-actions">
+          <a href="#contact" class="btn-primary">Me contacter</a>
+          <a href="#projects" class="btn-ghost">Voir mes projets</a>
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-hint">
+      <span>Découvrir</span>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    </a>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div class="section-inner">
+      <div class="section-label">01 — À propos</div>
+      <h2 class="section-title">Sérieuse dans le code,<br/><em>joyeuse dans la vie</em></h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>Je suis étudiante en Génie Informatique à la Faculté Polydisciplinaire de Taroudant (2024 – 2026), avec une vraie passion pour l'Intelligence Artificielle et les Grands Modèles de Langage.</p>
+          <p>Mon stage chez <strong>BESTMARK – Partenaire Orange</strong> m'a permis de plonger dans un environnement IT professionnel : réseaux, développement, support technique.</p>
+          <p>En dehors du code ? Je monte sur scène, je déplace des pions sur l'échiquier, et je crois que la curiosité est le meilleur langage de programmation.</p>
+        </div>
+        <div class="about-cards">
+          <div class="about-card card-fun">
+            <div class="about-card-icon">🏆</div>
+            <p>1ère place — Concours d'Expression Orale</p>
+          </div>
+          <div class="about-card card-dark">
+            <div class="about-card-icon">🎭</div>
+            <p>Meilleure Actrice — Concours Régional parmi 18 écoles</p>
+          </div>
+          <div class="about-card card-light">
+            <div class="about-card-icon">♟</div>
+            <p>Échecs — ~1300 Elo · Niveau intermédiaire</p>
+          </div>
+          <div class="about-card card-accent">
+            <div class="about-card-icon">🌍</div>
+            <p>Arabe · Français · Anglais B1 · Espagnol</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section skills" id="skills">
+    <div class="section-inner">
+      <div class="section-label">02 — Compétences</div>
+      <h2 class="section-title">Mon <em>outillage</em></h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Langages</h3>
+          <div class="skill-tags">
+            <span>Python</span><span>C</span><span>C++</span>
+            <span>JavaScript</span><span>HTML/CSS</span><span>SQL</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Outils & Tech</h3>
+          <div class="skill-tags">
+            <span>Git & GitHub</span><span>MySQL</span>
+            <span>VS Code</span><span>GitHub Pages</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Concepts</h3>
+          <div class="skill-tags">
+            <span>POO</span><span>Algorithmes</span><span>Structures de données</span>
+            <span>Réseaux</span><span>IA / LLMs</span><span>Développement Web</span>
+          </div>
+        </div>
+      </div>
+      <div class="certif-strip">
+        <div class="certif-item">
+          <span class="certif-badge">🎓</span>
+          <div>
+            <strong>Operating Systems & You: Becoming a Power User</strong>
+            <p>Google / Coursera · Déc. 2025</p>
+          </div>
+        </div>
+        <div class="certif-item">
+          <span class="certif-badge">🗣</span>
+          <div>
+            <strong>Anglais B1</strong>
+            <p>American Language Institute — Georgetown University</p>
+          </div>
+        </div>
+        <div class="certif-item">
+          <span class="certif-badge">🚀</span>
+          <div>
+            <strong>Ennov'Action Bootcamp</strong>
+            <p>Certificat de Participation</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section projects" id="projects">
+    <div class="section-inner">
+      <div class="section-label">03 — Projets</div>
+      <h2 class="section-title">Ce que j'ai <em>créé</em></h2>
+      <div class="projects-grid">
+        <div class="project-card project-featured">
+          <div class="project-number">01</div>
+          <div class="project-content">
+            <h3>5 Façons d'utiliser les LLMs</h3>
+            <p>Diaporama interactif construit avec <code>pptxgenjs</code>, publié sur GitHub Pages. Exploration de 5 cas d'usage pratiques : productivité, génération de code, éducation, écriture créative.</p>
+            <div class="project-tech"><span>pptxgenjs</span><span>GitHub Pages</span><span>IA</span></div>
+            <a href="https://github.com/bibaelai" target="_blank" class="project-link">Voir sur GitHub →</a>
+          </div>
+          <div class="project-decoration">🤖</div>
+        </div>
+        <div class="project-card">
+          <div class="project-number">02</div>
+          <div class="project-content">
+            <h3>Blog Personnel</h3>
+            <p>Site blog conçu et développé de zéro. Design responsive, HTML/CSS/JS pur, mise en pratique des principes du front-end.</p>
+            <div class="project-tech"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <a href="https://github.com/bibaelai" target="_blank" class="project-link">Voir sur GitHub →</a>
+          </div>
+          <div class="project-decoration">✍️</div>
+        </div>
+        <div class="project-card project-github">
+          <div class="project-number">03</div>
+          <div class="project-content">
+            <h3>GitHub Projects</h3>
+            <p>Profil GitHub actif avec expériences personnelles de codage, explorations algorithmiques et projets divers.</p>
+            <div class="project-tech"><span>Open Source</span><span>Expérimentation</span></div>
+            <a href="https://github.com/bibaelai" target="_blank" class="project-link">github.com/bibaelai →</a>
+          </div>
+          <div class="project-decoration">🐙</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="section gallery-section" id="gallery">
+    <div class="section-inner">
+      <div class="section-label">04 — Galerie</div>
+      <h2 class="section-title">Ma vie en <em>images</em></h2>
+      <p class="gallery-intro">Bénévolat, sport, moments de vie — les photos arriveront bientôt ! En attendant, les catégories sont prêtes.</p>
+
+      <!-- GALLERY TABS -->
+      <div class="gallery-tabs">
+        <button class="gallery-tab active" data-tab="volunteer">🤝 Bénévolat</button>
+        <button class="gallery-tab" data-tab="athlete">🏃 Athlète</button>
+        <button class="gallery-tab" data-tab="other">✨ Divers</button>
+      </div>
+
+      <!-- GALLERY PANELS -->
+      <div class="gallery-panel active" id="tab-volunteer">
+        <div class="gallery-grid" id="grid-volunteer">
+          <div class="gallery-placeholder">
+            <div class="placeholder-inner">
+              <span>📸</span>
+              <p>Photos de bénévolat</p>
+              <small>Remplace les fichiers dans <code>gallery/volunteer/</code></small>
+            </div>
+          </div>
+          <div class="gallery-placeholder">
+            <div class="placeholder-inner">
+              <span>🤝</span>
+              <p>Activités communautaires</p>
+            </div>
+          </div>
+          <div class="gallery-placeholder">
+            <div class="placeholder-inner">
+              <span>💚</span>
+              <p>Projets solidaires</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-panel" id="tab-athlete">
+        <div class="gallery-grid" id="grid-athlete">
+          <div class="gallery-placeholder">
+            <div class="placeholder-inner">
+              <span>🏃</span>
+              <p>Photos sportives</p>
+              <small>Remplace les fichiers dans <code>gallery/athlete/</code></small>
+            </div>
+          </div>
+          <div class="gallery-placeholder">
+            <div class="placeholder-inner">
+              <span>♟</span>
+              <p>Échecs & tournois</p>
+            </div>
+          </div>
+          <div class="gallery-placeholder">
+            <div class="placeholder-inner">
+              <span>🎯</span>
+              <p>Performances</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-panel" id="tab-other">
+        <div class="gallery-grid" id="grid-other">
+          <div class="gallery-placeholder">
+            <div class="placeholder-inner">
+              <span>🎭</span>
+              <p>Théâtre & arts</p>
+            </div>
+          </div>
+          <div class="gallery-placeholder">
+            <div class="placeholder-inner">
+              <span>🌟</span>
+              <p>Moments divers</p>
+            </div>
+          </div>
+          <div class="gallery-placeholder">
+            <div class="placeholder-inner">
+              <span>📖</span>
+              <p>Apprentissages</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-note">
+        <p>💡 <strong> I am a very active person that loves learning </strong> .</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact-section" id="contact">
+    <div class="section-inner">
+      <div class="section-label">05 — Contact</div>
+      <h2 class="section-title">Travaillons <em>ensemble</em></h2>
+      <p class="contact-intro">Je suis ouverte aux opportunités de stage, projets collaboratifs et échanges tech. N'hésite pas !</p>
+      <div class="contact-links">
+        <a href="mailto:elharchaouihiba@gmail.com" class="contact-card">
+          <span class="contact-icon">✉️</span>
+          <div>
+            <strong>Email</strong>
+            <p>elharchaouihiba@gmail.com</p>
+          </div>
+        </a>
+        <a href="https://github.com/bibaelai" target="_blank" class="contact-card">
+          <span class="contact-icon">🐙</span>
+          <div>
+            <strong>GitHub</strong>
+            <p>github.com/bibaelai</p>
+          </div>
+        </a>
+        <a href="https://linkedin.com/in/hiba-elharchaoui" target="_blank" class="contact-card">
+          <span class="contact-icon">💼</span>
+          <div>
+            <strong>LinkedIn</strong>
+            <p>linkedin.com/in/hiba-elharchaoui</p>
+          </div>
+        </a>
+        <a href="tel:+212679511117" class="contact-card">
+          <span class="contact-icon">📞</span>
+          <div>
+            <strong>Téléphone</strong>
+            <p>+212 679 511 117</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>Fait avec 💗 & beaucoup de café par <strong>Hiba ELHARCHAOUI</strong> · 2026</p>
+    <p class="footer-quote"><em>"Le code est de la poésie que la machine comprend."</em></p>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/gallery.js"></script>
+</body>
+</html>
