@@ -1,28 +1,24 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Hiba Elharchaoui — Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <!-- CURSOR -->
-  <div class="cursor" id="cursor"></div>
-  <div class="cursor-dot" id="cursorDot"></div>
-
   <!-- NAV -->
   <nav class="nav" id="nav">
-    <div class="nav-logo">Biba's portfolio </div>
+    <div class="nav-logo"><span class="code-prompt">~/</span>biba's.dev</div>
     <ul class="nav-links">
-      <li><a href="#about">À propos</a></li>
-      <li><a href="#skills">Compétences</a></li>
-      <li><a href="#projects">Projets</a></li>
-      <li><a href="#gallery">Galerie</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#gallery">Gallery</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
     <div class="nav-toggle" id="navToggle">
@@ -37,30 +33,37 @@
       <div class="blob blob-2"></div>
       <div class="blob blob-3"></div>
     </div>
+    <!-- floating code snippets -->
+    <div class="code-float code-float-1"><span class="cf-dim">$</span> sudo apt install curiosity</div>
+    <div class="code-float code-float-2"><span class="cf-dim">&gt;</span> python train.py --epochs ∞</div>
+    <div class="code-float code-float-3"><span class="cf-dim">#</span> powered by Linux 🐧</div>
+    <div class="code-float code-float-4"><span class="cf-dim">&lt;/&gt;</span> hello, world</div>
+
     <div class="hero-content">
       <div class="hero-photo-wrap">
         <div class="hero-photo-ring"></div>
-        <img class="hero-photo" src="hiba.jpg" alt="Hiba Elharchaoui" />
+        <img class="hero-photo" src="gallery/hiba.jpg" alt="Hiba Elharchaoui" />
         <div class="hero-photo-deco">✦</div>
       </div>
       <div class="hero-text">
-        <p class="hero-eyebrow">Bonjour, je suis</p>
+        <p class="hero-eyebrow">Hello, I'm</p>
         <h1 class="hero-name">Hiba<br/><em>Elharchaoui</em></h1>
-        <p class="hero-subtitle">Étudiante en Génie Informatique · Passionnée d'IA · Créatrice de choses</p>
+        <p class="hero-subtitle">Computer Engineering Student · AI Enthusiast · Creator of Things</p>
         <div class="hero-tags">
-          <span class="tag">💻 Développement Web</span>
-          <span class="tag">🤖 IA & LLMs</span>
-          <span class="tag">🎭 Théâtre</span>
-          <span class="tag">♟ Échecs</span>
+          <span class="tag">💻 Web Development</span>
+          <span class="tag">🤖 AI &amp; LLMs</span>
+          <span class="tag">🐧 Linux Fan</span>
+          <span class="tag">🎭 Theatre</span>
+          <span class="tag">♟ Chess</span>
         </div>
         <div class="hero-actions">
-          <a href="#contact" class="btn-primary">Me contacter</a>
-          <a href="#projects" class="btn-ghost">Voir mes projets</a>
+          <a href="#contact" class="btn-primary">Contact Me</a>
+          <a href="#projects" class="btn-ghost">See My Projects</a>
         </div>
       </div>
     </div>
     <a href="#about" class="scroll-hint">
-      <span>Découvrir</span>
+      <span>Discover</span>
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
     </a>
   </section>
@@ -68,30 +71,58 @@
   <!-- ABOUT -->
   <section class="section about" id="about">
     <div class="section-inner">
-      <div class="section-label">01 — À propos</div>
-      <h2 class="section-title">Sérieuse dans le code,<br/><em>joyeuse dans la vie</em></h2>
+      <div class="section-label">01 — About</div>
+      <h2 class="section-title">Serious about code,<br/><em>joyful about life</em></h2>
       <div class="about-grid">
         <div class="about-text">
-          <p>Je suis étudiante en Génie Informatique à la Faculté Polydisciplinaire de Taroudant (2024 – 2026), avec une vraie passion pour l'Intelligence Artificielle et les Grands Modèles de Langage.</p>
-          <p>Mon stage chez <strong>BESTMARK – Partenaire Orange</strong> m'a permis de plonger dans un environnement IT professionnel : réseaux, développement, support technique.</p>
-          <p>En dehors du code ? Je monte sur scène, je déplace des pions sur l'échiquier, et je crois que la curiosité est le meilleur langage de programmation.</p>
+          <p>I'm a Computer Engineering student at the Faculty of Taroudant (2024 – 2026), with a real passion for Artificial Intelligence and Large Language Models.</p>
+          <p>My internship at <strong>BESTMARK – Orange Partner</strong> gave me hands-on experience in a professional IT environment: networking, development, and technical support.</p>
+          <p>Beyond code? I run Linux on all my machines, perform on stage, move pieces across a chessboard, and believe curiosity is the best programming language.</p>
         </div>
         <div class="about-cards">
           <div class="about-card card-fun">
             <div class="about-card-icon">🏆</div>
-            <p>1ère place — Concours d'Expression Orale</p>
+            <p>1st Place — Oral Expression Competition</p>
           </div>
           <div class="about-card card-dark">
             <div class="about-card-icon">🎭</div>
-            <p>Meilleure Actrice — Concours Régional parmi 18 écoles</p>
+            <p>Best Actress — Regional Competition among 18 schools</p>
           </div>
           <div class="about-card card-light">
             <div class="about-card-icon">♟</div>
-            <p>Échecs — ~1300 Elo · Niveau intermédiaire</p>
+            <p>Chess — ~1300 Elo · Intermediate level</p>
           </div>
           <div class="about-card card-accent">
             <div class="about-card-icon">🌍</div>
-            <p>Arabe · Français · Anglais B1 · Espagnol</p>
+            <p>Arabic · French · English B1 · Spanish</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Linux -->
+      <div class="linux-block">
+        <div class="linux-terminal">
+          <div class="terminal-bar">
+            <span class="t-dot t-red"></span>
+            <span class="t-dot t-yellow"></span>
+            <span class="t-dot t-green"></span>
+            <span class="t-title">hiba@linux ~ bash</span>
+          </div>
+          <div class="terminal-body">
+            <p><span class="t-prompt">hiba@linux:~$</span> <span class="t-cmd">uname -a</span></p>
+            <p class="t-out">Linux hiba-machine 6.x.x-generic #1 SMP x86_64 GNU/Linux</p>
+            <p><span class="t-prompt">hiba@linux:~$</span> <span class="t-cmd">echo $LOVE_FOR_LINUX</span></p>
+            <p class="t-out">infinite 🐧</p>
+            <p><span class="t-prompt">hiba@linux:~$</span> <span class="t-cmd">cat /etc/os-release | grep PRETTY</span></p>
+            <p class="t-out">PRETTY_NAME="The best OS, obviously"</p>
+            <p class="t-cursor-line"><span class="t-prompt">hiba@linux:~$</span> <span class="t-blink">▌</span></p>
+          </div>
+        </div>
+        <div class="linux-text">
+          <h3>🐧 Proud Linux User</h3>
+          <p>I believe in open-source, command-line power, and the freedom to <code>chmod 777</code> anything. Linux taught me how computers really work — and I never looked back.</p>
+          <div class="linux-distros">
+            <span>Bash</span><span>vim</span><span>grep</span><span>awk</span><span>systemd</span><span>apt</span>
           </div>
         </div>
       </div>
@@ -101,28 +132,28 @@
   <!-- SKILLS -->
   <section class="section skills" id="skills">
     <div class="section-inner">
-      <div class="section-label">02 — Compétences</div>
-      <h2 class="section-title">Mon <em>outillage</em></h2>
+      <div class="section-label">02 — Skills</div>
+      <h2 class="section-title">My <em>toolkit</em></h2>
       <div class="skills-grid">
         <div class="skill-group">
-          <h3>Langages</h3>
+          <h3>Languages</h3>
           <div class="skill-tags">
             <span>Python</span><span>C</span><span>C++</span>
             <span>JavaScript</span><span>HTML/CSS</span><span>SQL</span>
           </div>
         </div>
         <div class="skill-group">
-          <h3>Outils & Tech</h3>
+          <h3>Tools &amp; Tech</h3>
           <div class="skill-tags">
-            <span>Git & GitHub</span><span>MySQL</span>
-            <span>VS Code</span><span>GitHub Pages</span>
+            <span>Git &amp; GitHub</span><span>MySQL</span>
+            <span>VS Code</span><span>GitHub Pages</span><span>Linux CLI</span>
           </div>
         </div>
         <div class="skill-group">
           <h3>Concepts</h3>
           <div class="skill-tags">
-            <span>POO</span><span>Algorithmes</span><span>Structures de données</span>
-            <span>Réseaux</span><span>IA / LLMs</span><span>Développement Web</span>
+            <span>OOP</span><span>Algorithms</span><span>Data Structures</span>
+            <span>Networking</span><span>AI / LLMs</span><span>Web Dev</span>
           </div>
         </div>
       </div>
@@ -130,14 +161,14 @@
         <div class="certif-item">
           <span class="certif-badge">🎓</span>
           <div>
-            <strong>Operating Systems & You: Becoming a Power User</strong>
-            <p>Google / Coursera · Déc. 2025</p>
+            <strong>Operating Systems &amp; You: Becoming a Power User</strong>
+            <p>Google / Coursera · Dec. 2025</p>
           </div>
         </div>
         <div class="certif-item">
           <span class="certif-badge">🗣</span>
           <div>
-            <strong>Anglais B1</strong>
+            <strong>English B1</strong>
             <p>American Language Institute — Georgetown University</p>
           </div>
         </div>
@@ -145,7 +176,7 @@
           <span class="certif-badge">🚀</span>
           <div>
             <strong>Ennov'Action Bootcamp</strong>
-            <p>Certificat de Participation</p>
+            <p>Certificate of Participation</p>
           </div>
         </div>
       </div>
@@ -155,26 +186,26 @@
   <!-- PROJECTS -->
   <section class="section projects" id="projects">
     <div class="section-inner">
-      <div class="section-label">03 — Projets</div>
-      <h2 class="section-title">Ce que j'ai <em>créé</em></h2>
+      <div class="section-label">03 — Projects</div>
+      <h2 class="section-title">What I've <em>built</em></h2>
       <div class="projects-grid">
         <div class="project-card project-featured">
           <div class="project-number">01</div>
           <div class="project-content">
-            <h3>5 Façons d'utiliser les LLMs</h3>
-            <p>Diaporama interactif construit avec <code>pptxgenjs</code>, publié sur GitHub Pages. Exploration de 5 cas d'usage pratiques : productivité, génération de code, éducation, écriture créative.</p>
-            <div class="project-tech"><span>pptxgenjs</span><span>GitHub Pages</span><span>IA</span></div>
-            <a href="https://github.com/bibaelai" target="_blank" class="project-link">Voir sur GitHub →</a>
+            <h3>5 Ways to Use LLMs</h3>
+            <p>Interactive slideshow built with <code>pptxgenjs</code>, published on GitHub Pages. Exploration of 5 practical use cases: productivity, code generation, education, creative writing.</p>
+            <div class="project-tech"><span>pptxgenjs</span><span>GitHub Pages</span><span>AI</span></div>
+            <a href="https://github.com/bibaelai" target="_blank" class="project-link">View on GitHub →</a>
           </div>
           <div class="project-decoration">🤖</div>
         </div>
         <div class="project-card">
           <div class="project-number">02</div>
           <div class="project-content">
-            <h3>Blog Personnel</h3>
-            <p>Site blog conçu et développé de zéro. Design responsive, HTML/CSS/JS pur, mise en pratique des principes du front-end.</p>
+            <h3>Personal Blog</h3>
+            <p>Blog site designed and built from scratch. Responsive design, pure HTML/CSS/JS, putting front-end principles into practice.</p>
             <div class="project-tech"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
-            <a href="https://github.com/bibaelai" target="_blank" class="project-link">Voir sur GitHub →</a>
+            <a href="https://github.com/bibaelai" target="_blank" class="project-link">View on GitHub →</a>
           </div>
           <div class="project-decoration">✍️</div>
         </div>
@@ -182,8 +213,8 @@
           <div class="project-number">03</div>
           <div class="project-content">
             <h3>GitHub Projects</h3>
-            <p>Profil GitHub actif avec expériences personnelles de codage, explorations algorithmiques et projets divers.</p>
-            <div class="project-tech"><span>Open Source</span><span>Expérimentation</span></div>
+            <p>Active GitHub profile with personal coding experiments, algorithmic explorations, and various projects.</p>
+            <div class="project-tech"><span>Open Source</span><span>Experimentation</span></div>
             <a href="https://github.com/bibaelai" target="_blank" class="project-link">github.com/bibaelai →</a>
           </div>
           <div class="project-decoration">🐙</div>
@@ -195,91 +226,34 @@
   <!-- GALLERY -->
   <section class="section gallery-section" id="gallery">
     <div class="section-inner">
-      <div class="section-label">04 — Galerie</div>
-      <h2 class="section-title">Ma vie en <em>images</em></h2>
-      <p class="gallery-intro">Bénévolat, sport, moments de vie — les photos arriveront bientôt ! En attendant, les catégories sont prêtes.</p>
+      <div class="section-label">04 — Gallery</div>
+      <h2 class="section-title">My life in <em>pictures</em></h2>
+      <p class="gallery-intro">Volunteering, Writing, Tufting, sports, life moments. Just a glimpse into who I am beyond the terminal.</p>
 
       <!-- GALLERY TABS -->
       <div class="gallery-tabs">
-        <button class="gallery-tab active" data-tab="volunteer">🤝 Bénévolat</button>
-        <button class="gallery-tab" data-tab="athlete">🏃 Athlète</button>
-        <button class="gallery-tab" data-tab="other">✨ Divers</button>
+        <button class="gallery-tab active" data-tab="Uni">✨ Uni</button>
+        <button class="gallery-tab" data-tab="volunteer">🤝 Volunteer</button>
+        <button class="gallery-tab" data-tab="athlete">🏃 Athlete</button>
+        <button class="gallery-tab" data-tab="certificates">✨ Certificates</button>     
       </div>
 
       <!-- GALLERY PANELS -->
-      <div class="gallery-panel active" id="tab-volunteer">
-        <div class="gallery-grid" id="grid-volunteer">
-          <div class="gallery-placeholder">
-            <div class="placeholder-inner">
-              <span>📸</span>
-              <p>Photos de bénévolat</p>
-              <small>Remplace les fichiers dans <code>gallery/volunteer/</code></small>
-            </div>
-          </div>
-          <div class="gallery-placeholder">
-            <div class="placeholder-inner">
-              <span>🤝</span>
-              <p>Activités communautaires</p>
-            </div>
-          </div>
-          <div class="gallery-placeholder">
-            <div class="placeholder-inner">
-              <span>💚</span>
-              <p>Projets solidaires</p>
-            </div>
-          </div>
-        </div>
+       <div class="gallery-panel active" id="tab-Uni">
+        <div class="gallery-grid" id="grid-Uni"></div>
       </div>
-
+      <div class="gallery-panel" id="tab-volunteer">
+        <div class="gallery-grid" id="grid-volunteer"></div>
+      </div>
       <div class="gallery-panel" id="tab-athlete">
-        <div class="gallery-grid" id="grid-athlete">
-          <div class="gallery-placeholder">
-            <div class="placeholder-inner">
-              <span>🏃</span>
-              <p>Photos sportives</p>
-              <small>Remplace les fichiers dans <code>gallery/athlete/</code></small>
-            </div>
-          </div>
-          <div class="gallery-placeholder">
-            <div class="placeholder-inner">
-              <span>♟</span>
-              <p>Échecs & tournois</p>
-            </div>
-          </div>
-          <div class="gallery-placeholder">
-            <div class="placeholder-inner">
-              <span>🎯</span>
-              <p>Performances</p>
-            </div>
-          </div>
-        </div>
+        <div class="gallery-grid" id="grid-athlete"></div>
       </div>
-
-      <div class="gallery-panel" id="tab-other">
-        <div class="gallery-grid" id="grid-other">
-          <div class="gallery-placeholder">
-            <div class="placeholder-inner">
-              <span>🎭</span>
-              <p>Théâtre & arts</p>
-            </div>
-          </div>
-          <div class="gallery-placeholder">
-            <div class="placeholder-inner">
-              <span>🌟</span>
-              <p>Moments divers</p>
-            </div>
-          </div>
-          <div class="gallery-placeholder">
-            <div class="placeholder-inner">
-              <span>📖</span>
-              <p>Apprentissages</p>
-            </div>
-          </div>
-        </div>
+      <div class="gallery-panel" id="tab-certificates">
+        <div class="gallery-grid" id="grid-certificates"></div>
       </div>
 
       <div class="gallery-note">
-        <p>💡 <strong> I am a very active person that loves learning </strong> .</p>
+        <p>💡 <strong>I am a very active person that loves learning</strong></p>
       </div>
     </div>
   </section>
@@ -288,8 +262,8 @@
   <section class="section contact-section" id="contact">
     <div class="section-inner">
       <div class="section-label">05 — Contact</div>
-      <h2 class="section-title">Travaillons <em>ensemble</em></h2>
-      <p class="contact-intro">Je suis ouverte aux opportunités de stage, projets collaboratifs et échanges tech. N'hésite pas !</p>
+      <h2 class="section-title">Let's work <em>together</em></h2>
+      <p class="contact-intro">I'm open to internship opportunities, collaborative projects, and tech conversations. Don't hesitate!</p>
       <div class="contact-links">
         <a href="mailto:elharchaouihiba@gmail.com" class="contact-card">
           <span class="contact-icon">✉️</span>
@@ -315,7 +289,7 @@
         <a href="tel:+212679511117" class="contact-card">
           <span class="contact-icon">📞</span>
           <div>
-            <strong>Téléphone</strong>
+            <strong>Phone</strong>
             <p>+212 679 511 117</p>
           </div>
         </a>
@@ -323,13 +297,13 @@
     </div>
   </section>
 
-  <!-- FOOTER -->
   <footer class="footer">
-    <p>Fait avec 💗 & beaucoup de café par <strong>Hiba ELHARCHAOUI</strong> · 2026</p>
-    <p class="footer-quote"><em>"Le code est de la poésie que la machine comprend."</em></p>
+    <p>Made with 💗 &amp; lots of coffee by <strong>Hiba ELHARCHAOUI</strong> · 2026</p>
+    <p class="footer-quote"><em>"Code is like coffe, it's bitter but we see beauty in it."</em></p>
+    <p class="footer-linux"><span class="code-inline">$ shutdown -h never</span> — powered by Linux 🐧</p>
   </footer>
 
-  <script src="js/main.js"></script>
-  <script src="js/gallery.js"></script>
+  <script src="main.js"></script>
+  <script src="gallery.js"></script>
 </body>
 </html>
